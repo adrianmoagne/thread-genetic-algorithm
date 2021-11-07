@@ -16,7 +16,7 @@ class GraphColoring():
 
     def draw(self,chromosome):
         nx.draw(self.grafico,node_color=chromosome,with_labels=True)
-        plt.savefig(f"{self.number}.png")
+        plt.savefig(f"images/{self.number}.png")
         plt.clf()
       
     
